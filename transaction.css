@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding:0;
+}
+#nav-bar
+{
+    background-color:slateblue;
+    position: sticky;
+    top:0;
+    z-index:10;
+    float: right;
+}
+.navbar
+{
+    padding: 0 !important;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:whitesmoke !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    color:plum!important;
+    
+}
+
+.nav-link{
+    float: right;
+    color:plum!important;
+    
+}
+
+.nav-link:hover{
+    background-color:rgb(104, 59, 187);
+}
+/* navbar css ends here  */
+#main
+{
+    text-align: center;
+    background-image: radial-gradient(circle at top right,lightgrey  50%,	lightslategrey 3%  );}
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color:purple!important;
+    color: white!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+}  
+.btn-info:hover{
+    background-color: plum!important;
+}
+
